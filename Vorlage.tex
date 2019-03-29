@@ -213,717 +213,139 @@
 \cleardoublepage
 
 
-\section{Beispieldokument}
-Das vorliegende Dokument ist ein Beispieldokument aus dem Kurs
-\enquote{Einführung in das wissenschaftliche Arbeiten}.
-Es dient \zB~dazu, aufzuzeigen,
-wie die sogenannte (auf neudeutsch) \emph{Preamble}
-Ihrer Bachelorarbeit aussehen könnte.
-Es darf wild zitiert werden,
-oder mit Formeln umher geworfen werden,
-im Text $\sin^2 x + \cos^2 x = 1$,
-so wie in den zugehörigen Formel-Umgebungen\dots
+\section{Übungsblatt 4}
 
-Es könnte sich als sinnvoll erweisen,
-Aufzählungen zu verwenden:
-\begin{itemize}
-  \item Punkt 1
-  \begin{itemize}
-    \item Unterpunkt 1.1
-    \item Unterpunkt 1.2
-  \end{itemize}
+\subsection{Aufgabe 1}
 
-  \item Punkt 2
-  \begin{itemize}
-    \item usw\dots
-  \end{itemize}
-\end{itemize}
+I actually had a very big problem with this section: i wasn't able to download the software and try the program myself (I don't think we really have a "Südpol" in my host university). I did ask a friend to show me what he did in Südpol, and I Think it went something like this:\\
+1. Look for the paper and the graph \\
+2. Define the axis in the program\\
+3. Create a curve\\
+4. save\\
 
-Man kann auch \enquote{wörtliche Rede} verwenden.
+\subsection{Aufgabe 3]
 
-\subsection{Aufgabe 4.a}
-
-\begin{table}[h]
-\centering
-\begin{tabular}{|r|c|r|l|c|}
-\hline
-& & & \multicolumn{2}{c|}{$A_e$,  1/erg} \\
-
-Object & $ \delta  & $p_e$ & $B = 10$ $
-\hspace $\mu$G & $B = 100$
-\hspace $\mu$G\\
-\hline
-NGC 1068 & -0.69 & 2.38 & 2.1E$+$67 & 4.2E$+$65\\
-NGC 4945 & -0.59 & 2.18 & 3.8E$+$65 & 9.6E+63\\
-NGC 253 & -0.65 & 2.31 & 5.2E$+$65 & 1.2E$+$64 \\
-NCG 3034 & -0.39 & 1.78 & 1.2E$+$64 & 4.9E$+$62\\\hline
-
-\end{tabular}
-\caption{Experimentelle Daten und berechnete Parameter der Radio- und Elektronenspektren.}
-\end{table}
-
-\subsection{Aufgabe 4.b}
-
-\cite{Sunquakes}
-
-\begin{table}[h]
-\centering
-\begin{tabular}{lcccr}
-\hline
-\multirow{2}{*}{Object}
-& \multirow{2}{*}{$\delta$}
-& \multirow{2}{*}{$p_e$}
-& \multicolumn{2}{c}{$A_e$/($10^{65} \ \textsw{erg}^{-1}$)  }\\
-\cline{4-5}
-
-&&& $B = \SI{10}$ ${\mu}$G
-&  $B = 100$  $\mu$G
-\\
-\hline
-NGC 1068 & -0.69 & 2.38 & 2100 & 4.2\\
-NGC 4945 & -0.59 & 2.18 & 3.8 & 0.096\\
-NGC 253 & -0.65 & 2.31 & 5.2 & 0.12 \\
-NCG 3034 & -0.39 & 1.78 & 1.2 & 0.0049\\\hline
-
-\end{tabular}
-\caption{(Verbesserte) Experimentelle Daten und berechnete Parameter der Radio- und Elektronenspektren.}
-\end{table}
+For this part I will copy-paste the commands from my terminal (I have a Mac, and used an old version of Xcode):\\
 
 
-\subsection{Aufgabe 5.a }
+\subsubsection{Part a}
 
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=.7\linewidth]{wally.jpg}
-    \caption{Finde Wally, wenn es dir langweilig ist}
-    \label{fig:my_label}
-\end{figure}
-\newpage
-\subsection{Aufgabe 5.b}
+FrancisavosMBP3:~ fran$ git config --global user.name "Francisca Soto" \\
+FrancisavosMBP3:~ fran$ git config --global user.email "francisca.sotobravo@rub.de\\
+\midskip
 
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=.7\linewidth, angle=-45]{wally.jpg}
-    \caption{Jetzt ist es deutlich schwieriger Wally zu finden, nicht wahr? selber Schuld}
-    \label{fig:my_label}
-\end{figure}
-\newpage
-\subsection{Aufgabe 5.c}
+FrancisavosMBP3:~ fran$ git init Bachelor_test\\
+Initialized empty Git repository in /Users/fran/Bachelor_test/.git/\\
 
-\begin{figure}[h]
-\begin{subfigure}[c]{0.45\linewidth}
-\centering
-\includegraphics[width=1.25\linewidth]{old.jpeg}
-\subcaption{wiztig}
-\end{subfigure}
-\hfill
-\begin{subfigure}[c]{0.45\linewidth}
-\centering
-\includegraphics[width=0.94\linewidth]{true.jpeg}
-\subcaption{witziger}
-\end{subfigure}
-\caption{2 witzige Bilder nur für dich}
-\end{figure}
+\subsubsection{Part b}
 
-\newpage
+FrancisavosMBP3:Bachelor_test fran$ open .gitignore \\
 
-\subsection{Aufgabe 5.d}
+For my .gitignore I used a list of recomemended options from a Overleaf-help website; I had:\\
+*.log\\
+*.com\\
+*.exe\\
+*.aux\\
+*.glo\\
+*.idx\\
+*.log\\
+*.toc\\
+*.ist\\
+*.acn\\
+*.acr\\
+*.alg\\
+*.bbl\\
+*.blg\\
+*.dvi\\
+*.glg\\
+*.gls\\
+*.ilg\\
+*.ind\\
+*.lof\\
+*.lot\\
+*.maf\\
+*.mtc\\
+*.mtc1\\
+*.out\\
+*.synctex.gz\\
 
-\begin{figure}[h!]
-    \centering
-    \includegraphics[draft, width=.7\linewidth]{wally.jpg}
-    \caption{Was passiert? man sieht das Bild nicht mehr, das ist was passiert! wie soll man nun Wally finden?}
-    \label{Physik}
-\end{figure}
+\subsubsection{Part c}
 
-
-
+I copied and pasted the .tex Vorlage from the past homework (was that what we were supposed to do??) with:\\
+FrancisavosMBP3:Bachelor_test fran$ git add Vorlage.tex\\
+FrancisavosMBP3:Bachelor_test fran$ git commit -m "My first commit"\\
+[master (root-commit) 13c2970] My first commit\\
+ 1 file changed, 929 insertions(+)\\
+ create mode 100644 Vorlage.tex\\
  
- \newpage
- \subsection{Aufgabe 6.}
- Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut purus elit, vestibulum ut,placerat ac, adipiscing vitae, felis. Curabitur dictum gravida mauris. Nam arcu libero,nonummy eget, consectetuer id, vulputate a, magna. Donec vehicula augue eu neque.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpisegestas. Mauris ut leo. Cras viverra metus rhoncus sem. Nulla et lectus vestibulum urnafringilla ultrices. Phasellus eu tellus sit amet tortor gravida placerat. Integer sapien est,iaculis in, pretium quis, viverra ac, nunc. Praesent eget sem vel leo ultrices bibendum.Aenean faucibus. Morbi dolor nulla, malesuada eu, pulvinar at, mollis ac, nulla. Curabiturauctor semper nulla. Donec varius orci eget risus. Duis nibh mi, congue eu, accumsaneleifend, sagittis quis, diam. Duis eget orci sit amet orci dignissim rutrum.\\
+ \subsubsection{Part d}
  
- Nam dui ligula, fringilla a, euismod sodales, sollicitudin vel, wisi. Morbi auctor loremnon justo. Nam lacus libero, pretium at, lobortis vitae, ultricies et, tellus. Donec aliquet,tortor sed accumsan bibendum, erat ligula aliquet magna, vitae ornare odio metus a mi.Morbi ac orci et nisl hendrerit mollis. Suspendisse ut massa. Cras nec ante. Pellentesquea nulla. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculusmus. Aliquam tincidunt urna. Nulla ullamcorper vestibulum turpis. Pellentesque cursusluctus mauris.\\
+ FrancisavosMBP3:Bachelor_test fran$ git checkout -b First-Branch\\
+Switched to a new branch 'First-Branch'
+
+\subsubsection{Part e - inception}
+
+I created an account at github.com, created a new repository and then pull my local one: \\
+FrancisavosMBP3:Bachelor_test fran$ git remote add aufgabe https://github.com/FranSotoBravo/aufgabe.git\\
+FrancisavosMBP3:Bachelor_test fran$ git push -u aufgabe master\\
+Username for 'https://github.com': FranSotoBravo\\
+Password for 'https://FranSotoBravo@github.com': \\
+Counting objects: 3, done.\\
+Delta compression using up to 4 threads.\\
+Compressing objects: 100% (2/2), done.\\
+Writing objects: 100% (3/3), 14.44 KiB | 0 bytes/s, done.\\
+Total 3 (delta 0), reused 0 (delta 0)\\
+To https://github.com/FranSotoBravo/aufgabe.git\\
+ * [new branch]      master -> master\\
+Branch master set up to track remote branch master from aufgabe.\\
+
+\midskip
+
+Then I used the edit option in github to erase the previous document (I mean, alle Teile waren irrelevant, oder??) and write this precise words you are currently reading (enjoy your weekend btw)
  
- \begin{table}[h]
-\centering
-\begin{tabular}{|r|c|r|l|c|}
-\hline
-& & & \multicolumn{2}{c|}{$A_e$,  1/erg} \\
-
-Object & $ \delta  & $p_e$ & $B = 10$ $
-\hspace $\mu$G & $B = 100$
-\hspace $\mu$G\\
-\hline
-NGC 1068 & -0.69 & 2.38 & 2.1E$+$67 & 4.2E$+$65\\
-NGC 4945 & -0.59 & 2.18 & 3.8E$+$65 & 9.6E+63\\
-NGC 253 & -0.65 & 2.31 & 5.2E$+$65 & 1.2E$+$64 \\
-NCG 3034 & -0.39 & 1.78 & 1.2E$+$64 & 4.9E$+$62\\\hline
-
-\end{tabular}
-\caption{Experimentelle Daten und berechnete Parameter der Radio- und Elektronenspektren.}
-\end{table}
- 
- Nulla malesuada porttitor diam. Donec felis erat, congue non, volutpat at, tincidunttristique, libero. Vivamus viverra fermentum felis. Donec nonummy pellentesque ante.Phasellus adipiscing semper elit. Proin fermentum massa ac quam. Sed diam turpis,molestie vitae, placerat a, molestie nec, leo. Maecenas lacinia. Nam ipsum ligula, eleifendat, accumsan nec, suscipit a, ipsum. Morbi blandit ligula feugiat magna. Nunc eleifendconsequat lorem. Sed lacinia nulla vitae enim. Pellentesque tincidunt purus vel magna.Integer non enim. Praesent euismod nunc eu purus. Donec bibendum quam in tellus.Nullam cursus pulvinar lectus. Donec et mi. Nam vulputate metus eu enim. Vestibulumpellentesque felis eu massa.\\
- 
- 
-\newpage
-
-\begin{figure}[h!]
-    \centering
-    \includegraphics[draft, width=.7\linewidth]{wally.jpg}
-    \caption{Was passiert? man sieht das Bild nicht mehr, das ist was passiert! wie soll man nun Wally finden?}
-    \label{Physik}
-\end{figure}
-
-\newpage
-
-\begin{table}[h]
-\centering
-\begin{tabular}{lcccr}
-\hline
-\multirow{2}{*}{Object}
-& \multirow{2}{*}{$\delta$}
-& \multirow{2}{*}{$p_e$}
-& \multicolumn{2}{c}{$A_e$/($10^{65} \ \textsw{erg}^{-1}$)  }\\
-\cline{4-5}
-
-&&& $B = \SI{10}$ ${\mu}$G
-&  $B = 100$  $\mu$G
-\\
-\hline
-NGC 1068 & -0.69 & 2.38 & 2100 & 4.2\\
-NGC 4945 & -0.59 & 2.18 & 3.8 & 0.096\\
-NGC 253 & -0.65 & 2.31 & 5.2 & 0.12 \\
-NCG 3034 & -0.39 & 1.78 & 1.2 & 0.0049\\\hline
-
-\end{tabular}
-\caption{(Verbesserte) Experimentelle Daten und berechnete Parameter der Radio- und Elektronenspektren.}
-\end{table}
-
-Quisque ullamcorper placerat ipsum. Cras nibh. Morbi vel justo vitae lacus tinciduntultrices. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. In hac habitasse plateadictumst. Integer tempus convallis augue. Etiam facilisis. Nunc elementum fermentumwisi. Aenean placerat. Ut imperdiet, enim sed gravida sollicitudin, felis odio placeratquam, ac pulvinar elit purus eget enim. Nunc vitae tortor. Proin tempus nibh sit ametnisl. Vivamus quis tortor vitae risus porta vehicula.\\
- 
- Fusce mauris. Vestibulum luctus nibh at lectus. Sed bibendum, nulla a faucibus semper,leo velit ultricies tellus, ac venenatis arcu wisi vel nisl. Vestibulum diam. Aliquampellentesque, augue quis sagittis posuere, turpis lacus congue quam, in hendrerit risuseros eget felis. Maecenas eget erat in sapien mattis porttitor. Vestibulum porttitor. Nullafacilisi. Sed a turpis eu lacus commodo facilisis. Morbi fringilla, wisi in dignissim interdum,justo lectus sagittis dui, et vehicula libero dui cursus dui. Mauris tempor ligula sed lacus.Duis cursus enim ut augue. Cras ac magna. Cras nulla. Nulla egestas. Curabitur a leo.Quisque egestas wisi eget nunc. Nam feugiat lacus vel est. Curabitur consectetuer.\\
- 
- Suspendisse vel felis. Ut lorem lorem, interdum eu, tincidunt sit amet, laoreet vitae, arcu.Aenean faucibus pede eu ante. Praesent enim elit, rutrum at, molestie non, nonummy vel,nisl. Ut lectus eros, malesuada sit amet, fermentum eu, sodales cursus, magna. Donec eupurus. Quisque vehicula, urna sed ultricies auctor, pede lorem egestas dui, et convallis eliterat sed nulla. Donec luctus. Curabitur et nunc. Aliquam dolor odio, commodo pretium,ultricies non, pharetra in, velit. Integer arcu est, nonummy in, fermentum faucibus,egestas vel, odio.\\
- 
- Sed commodo posuere pede. Mauris ut est. Ut quis purus. Sed ac odio. Sed vehiculahendrerit sem. Duis non odio. Morbi ut dui. Sed accumsan risus eget odio. In hachabitasse platea dictumst. Pellentesque non elit. Fusce sed justo eu urna porta tincidunt.Mauris felis odio, sollicitudin sed, volutpat a, ornare ac, erat. Morbi quis dolor. Donecpellentesque, erat ac sagittis semper, nunc dui lobortis purus, quis congue purus metusultricies tellus. Proin et quam. Class aptent taciti sociosqu ad litora torquent per conubianostra, per inceptos hymenaeos. Praesent sapien turpis, fermentum vel, eleifend faucibus,vehicula eu, lacus.\\
- 
- Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpisegestas. Donec odio elit, dictum in, hendrerit sit amet, egestas sed, leo. Praesent feugiatsapien aliquet odio. Integer vitae justo. Aliquam vestibulum fringilla lorem. Sed nequelectus, consectetuer at, consectetuer sed, eleifend ac, lectus. Nulla facilisi. Pellentesqueeget lectus. Proin eu metus. Sed porttitor. In hac habitasse platea dictumst. Suspendisseeu lectus. Ut mi mi, lacinia sit amet, placerat et, mollis vitae, dui. Sed ante tellus, tristiqueut, iaculis eu, malesuada ac, dui. \\
- 
- Mauris nibh leo, facilisis non, adipiscing quis, ultrices a,dui.Morbi luctus, wisi viverra faucibus pretium, nibh est placerat odio, nec commodo wisienim eget quam. Quisque libero justo, consectetuer a, feugiat vitae, porttitor eu, libero.Suspendisse sed mauris vitae elit sollicitudin malesuada. Maecenas ultricies eros sit ametante. Ut venenatis velit. Maecenas sed mi eget dui varius euismod. Phasellus aliquetvolutpat odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuerecubilia Curae; Pellentesque sit amet pede ac sem eleifend consectetuer. Nullam elementum,urna vel imperdiet sodales, elit ipsum pharetra ligula, ac pretium ante justo a nulla.Curabitur tristique arcu eu metus. Vestibulum lectus. Proin mauris. Proin eu nunceu urna hendrerit faucibus. Aliquam auctor, pede consequat laoreet varius, eros tellusscelerisque quam, pellentesque hendrerit ipsum dolor sed augue. Nulla nec lacus.\\
- 
- Suspendisse vitae elit. Aliquam arcu neque, ornare in, ullamcorper quis, commodo eu,libero. Fusce sagittis erat at erat tristique mollis. Maecenas sapien libero, molestie et,lobortis in, sodales eget, dui. Morbi ultrices rutrum lorem. Nam elementum ullamcorper leo.Morbi dui. Aliquam sagittis. Nunc placerat. Pellentesque tristique sodales est. Maecenasimperdiet lacinia velit. Cras non urna. Morbi eros pede, suscipit ac, varius vel, egestasnon, eros. Praesent malesuada, diam id pretium elementum, eros sem dictum tortor, velconsectetuer odio sem sed wisi.\\
- 
- Sed feugiat. Cum sociis natoque penatibus et magnis dis parturient montes, nasceturridiculus mus. Ut pellentesque augue sed urna. Vestibulum diam eros, fringilla et, consec-tetuer eu, nonummy id, sapien. Nullam at lectus. In sagittis ultrices mauris. Curabiturmalesuada erat sit amet massa. Fusce blandit. Aliquam erat volutpat. Aliquam euismod.Aenean vel lectus. Nunc imperdiet justo nec dolor.\\
- 
- Etiam euismod. Fusce facilisis lacinia dui. Suspendisse potenti. In mi erat, cursus id,nonummy sed, ullamcorper eget, sapien. Praesent pretium, magna in eleifend egestas,pede pede pretium lorem, quis consectetuer tortor sapien facilisis magna. Mauris quismagna varius nulla scelerisque imperdiet. Aliquam non quam. Aliquam porttitor quam alacus. Praesent vel arcu ut tortor cursus volutpat. In vitae pede quis diam bibendumplacerat. Fusce elementum convallis neque. Sed dolor orci, scelerisque ac, dapibus nec,ultricies ut, mi. Duis nec dui quis leo sagittis commodo.\\
- 
- Aliquam lectus. Vivamus leo. Quisque ornare tellus ullamcorper nulla. Mauris porttitorpharetra tortor. Sed fringilla justo sed mauris. Mauris tellus. Sed non leo. Nullamelementum, magna in cursus sodales, augue est scelerisque sapien, venenatis congue nullaarcu et pede. Ut suscipit enim vel sapien. Donec congue. Maecenas urna mi, suscipit in,placerat ut, vestibulum ut, massa. Fusce ultrices nulla et nisl.\\
- 
- Etiam ac leo a risus tristique nonummy. Donec dignissim tincidunt nulla. Vestibulumrhoncus molestie odio. Sed lobortis, justo et pretium lobortis, mauris turpis condimentumaugue, nec ultricies nibh arcu pretium enim. Nunc purus neque, placerat id, imperdietsed, pellentesque nec, nisl. Vestibulum imperdiet neque non sem accumsan laoreet. Inhac habitasse platea dictumst. Etiam condimentum facilisis libero. Suspendisse in elitquis nisl aliquam dapibus. Pellentesque auctor sapien. Sed egestas sapien nec lectus.Pellentesque vel dui vel neque bibendum viverra. Aliquam porttitor nisl nec pede. Proinmattis libero vel turpis. Donec rutrum mauris et libero. Proin euismod porta felis. Namlobortis, metus quis elementum commodo, nunc lectus elementum mauris, eget vulputateligula tellus eu neque. Vivamus eu dolor.\\
- 
- Nulla in ipsum. Praesent eros nulla, congue vitae, euismod ut, commodo a, wisi. Pellen-tesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.Aenean nonummy magna non leo. Sed felis erat, ullamcorper in, dictum non, ultricies ut,lectus. Proin vel arcu a odio lobortis euismod. Vestibulum ante ipsum primis in faucibusorci luctus et ultrices posuere cubilia Curae; Proin ut est. Aliquam odio. Pellentesquemassa turpis, cursus eu, euismod nec, tempor congue, nulla. Duis viverra gravida mauris.Cras tincidunt. Curabitur eros ligula, varius ut, pulvinar in, cursus faucibus, augue.\\
- 
- Nulla mattis luctus nulla. Duis commodo velit at leo. Aliquam vulputate magna etleo. Nam vestibulum ullamcorper leo. Vestibulum condimentum rutrum mauris. Donecid mauris. Morbi molestie justo et pede. Vivamus eget turpis sed nisl cursus tempor.Curabitur mollis sapien condimentum nunc. In wisi nisl, malesuada at, dignissim sit amet,lobortis in, odio. Aenean consequat arcu a ante. Pellentesque porta elit sit amet orci.Etiam at turpis nec elit ultricies imperdiet. Nulla facilisi. In hac habitasse platea dictumst.\\
- 
- und mehr und mehr
-\cite{largest}
-\newpage
-
-\subsection{Aufgabe 7.a}
-
-\begin{equation}
-    x_{1/2} = -\frac{p}{2} \pm \sqrt{\left(\frac{p}{2}\right)^2 - q}
-\end{equation}
-
-\subsection{Aufgabe 7.b}
-
-\begin{equation*}
-    f(x) = |x - 3| =
-    \begin{cases} x - 3 & \text{für}\ x < 3\\
-    -x + 3 & \text{für}\  x \geq 3
-    \end{cases}
-\end{equation*}
-
-\subsection{7.c}
-\begin{math}
-    \sum_{k=1}^n k = \frac{n(n+1)}{2}
-\end{math}
-\ToDo{HOMEWORK}
-\subsection{7.d}
-
-\begin{align}
-    \nabla\vec{E}\ & = \frac{\rho}{\epsilon_0}\\
-    \nabla\vec{H}\ & = 0\\
-    \nabla \times \vec{E}\ & = -\mu \frac{\partial \vec{H}}{\partial t}\nonumber\\
-    \nabla \times \vec{H} + \vec{J}\ & = \epsilon\frac{\partial \vec{E}}{\partial t}
-    \end{align}
-\subsection{7.e}
-
-\begin{displaymath}
-\begin{pmatrix}
-1 & 2 & 3 \\
-3 & 2 & 1 \\
-1 & 2 & 3
-\end{pmatrix}
-\cdot
-\begin{pmatrix}
-0\\
-0\\
-0
-\end{pmatrix}
-=
-\begin{pmatrix}
-0\\
-0\\
-0
-\end{pmatrix}
-\end{displaymath}
-
-\subsection{Aufgabe 7.f}
-
-\begin{align}
-    \frac{a}{x\,b} + 9 & = 88\cdot p\\\nonumber
-    \frac{a}{x\,b} & = 88\cdot p - 9\\ \nonumber
-    \frac{a}{b} & = (88\cdot p - 9)\cdot x\\ \nonumber
-    x & = \frac{a}{b} \frac{1}{88\cdot p - 9} \nonumber
-\end{align}
-
-\subsection{Aufgabe 7.g}
-\begin{equation*}
-\int_0^{\infty}\underbrace{1}_{u'(x)}\cdot \underbrace{\ln{(x)}}_{v(x)} \mathrm{d}x = \underbrace{x}_{u(x)}\cdot \underbrace{\ln{(x)}}_{v(x)}|_0^{\infty} - \int_0^{\infty}\underbrace{x}_{u(x)}\cdot \underbrace{1/x}_{v'(x)} \mathrm{d}x
-\end{equation*}
-
-\cite{schwarzschild}
-\cite{apic}
-\subsection{Aufgabe 7.h}
-\begin{equation}
-\int_0^{\infty}{\color{red}1}\cdot {\color{blue}\ln{(x)}} \mathrm{d}x = {\color{red}x}\cdot {\color{blue}\ln{(x)}}|_0^{\infty} -  \int_0^{\infty}{\color{red}x}\cdot {\color{blue}1/x}\ \mathrm{d}x
-\end{equation}
-
-\newpage
-
-\subsection{Aufgabe 8.a,b}
-
-$\nd{3}{x}f(x)$ \\
- \ToDo{Schlafen}
-
-\subsection{Aufgabe 8.c}
-%\usepackage[disable]{todonotes}%
-
-The package its called [disable]{todonotes}
-
-\newpage
-\addcontentsline{toc}{section}{Literaturverzeichnis}
-\printbibliography
-
-\begin{appendix} 
-\input{Anhang_Daten}
-\end{appendix}
-
-\clearpage
-\section{Wichtige Pakete}
-%
-\begin{description}
-  \item[KoMa/KOMA-Script] Der Name hat natürlich nichts mit dem Zustand zu tun,
-    sondern mit dem Namen des Autors dieser Pakete: Markus Kohm.
-    Es handelt sich um eine Sammlung von Klassen und Paketen,
-    die einem viele Dinge abnehmen und automatisieren,
-    um die sich der unbedachte Physiker
-    vielleicht gar keine Gedanken macht.
-    So kann man damit zum Beispiel, mit minimaler Interaktion,
-    Text in ideal große Bereiche auf einer Seite setzen,
-    oder auch die Kopf- und Fußzeile beliebig abändern.
-    Eine Auswahl der beinhalteten Pakete sind:
-    \begin{itemize}
-      \item \textsw{scrartcl}
-      \item \textsw{scrlttr2}
-      \item \textsw{scrbook}
-      \item \textsw{scrlayer-scrpage}
-    \end{itemize}
-
-  \item[beamer] Dies ist namentlich inspiriert vom deutschen Gebrauch
-    des im englischen nicht vorhandenen Worts. Es handelt sich aber,
-    wie man, wenn man der deutschen Sprache mächtig ist, erahnen kann,
-    um einen Projektor.
-    Mit dieser Klasse kann man also Beamer-Präsentationen,
-    die klassisch Powerpoint vorbehaltenen Präsentationen
-    auch mit \LaTeX{} angehen und professionell gestalten.
-    Der große Vorteil von \LaTeX,
-    dass Inhalt und Layout getrennt sind (sein sollten),
-    ist hier besonders Wert erwähnt zu werden.
-    Man kann ein einheitliches Bild gut erreichen,
-    auch wenn man Präsentationen kombiniert.
-    Auch Formeln lassen sich in gewohnter Manier einbinden
-    und professionell setzen.
-
-  \item[babel] Hauptsächlich für die korrekte Worttrennung in der Sprache,
-    aber auch für weitere Eigenheiten.
-    So ist \zB~im Englischen nach dem Satzende durch einen Punkt
-    ein längeres Leerzeichen zu setzen, als zwischen Wörtern.
-    Anders ist es im Französischen und Deutschen.
-    Bei solchen Details hilft \textsw{babel}.
-    Unterstützt mehrere Sprachen, auch in einem Dokument.
-
-  \item[hyphsubst] Im Deutschen gibt es Wörter,
-    die falsch nach den Standardregeln von babel getrennt werden.
-    So wurde bei mir z.B. Einzelstern als \enquote{Einzels-tern} getrennt.
-    Um dem Abhilfe zu schaffen kann man dieses Paket
-    (früh, auch vor der \verb+\documentclass+) wie folgt laden:
-    \verb+\RequirePackage[ngerman=ngerman-x-latest]{hyphsubst}+
-
-  \item[inputenc] Um auch Buchstaben mit Akzenten
-    und nicht-lateinische Buchstaben
-    korrekt aus den Quelldateien (\file{*.tex}) zu lesen,
-    sollte ein input encoding mit dem Laden
-    dieses Pakets vorgegeben werden.
-
-  \item[fontenc] \LaTeX{} schafft es, alle möglichen Symbole,
-    Buchstaben, mit Verzierungen, Akzenten etc. darzustellen,
-    aber verwendet dafür nicht zwangsweise die vorhandenen Symbole
-    aus dem Font, sondern setzt diese selbst zusammen.
-    Das ist natürlich nicht gut aus dem PDF kopierbar.
-    Um dem Abhilfe zu schaffen sollte man
-    das jeweils regionale Font-Encoding (für Westeuropa T1)
-    mit diesem Paket laden: \verb+\usepackage[T1]{fontenc}+
-
-  \item[lmodern] Der Standardfont von \LaTeX
-    ist der von Donald Knuth für \TeX entwickelte
-    Font \enquote{Computer Modern}.
-    Dieser wurde jedoch nur für bestimmte einzelne Größen
-    zwischen 5\,pt und 17\,pt von Hand erstellt (5, 6, 7, 8, 9, 10, 12, 17),
-    um die Strichstärken und relativen Proportionen
-    auf die jeweilige Größe anzupassen.
-    Um dieses Problem, wenn man Zwischengrößen
-    oder außerhalb des Bereichs liegende Font-Größen braucht,
-    kann man dieses Paket laden.
-    Es verwendet immer noch diesen Standardfont, als Vektorgraphiken,
-    skaliert auf die entsprechende Größe,
-    ausgehend von der nächstgelegenen vorhandenen Schriftgröße.
-    Natürlich kann man auch andere Fonts auswählen,
-    aber dieses hier ist die einfache und klassische
-    Rundum-Sorglos-Packung. Wird \textsw{lmodern} verwendet,
-    so sollte man auch \textsw{fixcmex} verwenden.
-    Alternative: \textsw{cm-super}
-
-  \item[fixcmex] Wird \textsw{lmodern} zusammen mit
-    \textsw{amsmath} geladen,
-    so gehen ein paar Funktionalitäten von \textsw{amsmath} verloren.
-    Um diese zu beheben, sollte
-    (möglichst spät, auf jeden Fall nach Font-Paketen und Änderungen)
-    dieses Paket zusätzlich geladen werden.
-
-  \item[microtype] Es gibt eine Menge Infos über Typographie,
-    bis hin zu vielen kleinen Details, die Mikrotypographie genannt werden.
-    Was genau macht dieses Paket, ohne zu sehr auf Details einzugehen?
-    Minimales Skalieren der Buchstaben, um eine Zeile Text
-    doch noch in die vorgegebene Breite einzupassen
-    (ohne die bei \LaTeX{} Usern so bekannten badboxes),
-    leichtes Verschieben nach links bzw. rechts am linken bzw. rechten Rand,
-    um einen optisch ansprechenderen Abschluss zu haben,
-    und einige weitere Features,
-    die man teils sehr fein einstellen kann. (Siehe Manual)
-
-  \item[geometry] Nur, wenn man ganz konkrete Vorgaben
-    (oder Vorstellungen :) hat, wie viel Platz zwischen Seitenelementen
-    und zu den Seitenrändern sein soll.
-    Man kann sehr fein einstellen, wie das Layout einer Seite aussehen soll.
-
-  \item[siunitx] Gerade in der Physik und Naturwissenschaften
-    sind Einheiten essentiell.
-    Um diesen auch im Schriftsatz gerecht zu werden,
-    sollten diese einheitlich gesetzt werden.
-    Dafür ist \textsw{siunitx}.
-
-  \item[array, booktabs, multirow, tabularx, longtable]
-    \textsw{array} verbessert viel \enquote{unter der Haube}
-    für Tabellen, aber bietet auch neue Funktionalität,
-    wie selbst erstellbare Spalten.
-    \textsw{booktabs} hübscht Tabellen weiter auf
-    und bietet ebenfalls neue Funktionen,
-    wie bestimmte Linien für obere und untere Grenze der Tabelle.
-    Insbesondere das Handbuch ist lesenswert
-    mit vielen guten Beispielen zu Stilfragen (als Style-Guide).
-    \textsw{multirow} bietet einem den praktischen \verb+\multirow+-Befehl,
-    der genau das tut, was der Name sagt,
-    ähnlich zum \verb+\multicolumn+-Befehl.
-    \textsw{tabularx} ist nützlich,
-    wenn man eine Tabelle einer bestimmten Breite erzeugen will
-    und die Spaltenbreite entsprechend angepasst werden soll.
-    \textsw{longtable} ist vermutlich vor allem
-    für Experimentalphysiker interessant,
-    die eben mit langen Tabellen von \zB~Messdaten hantieren müssen.
-    Eine Tabelle kann üblicherweise nicht auf mehrere Seiten verteilt werden,
-    wenn sie zu viele Zeilen hat.
-    \textsw{longtable} gibt einem diese Funktionalität.
-
-  \item[csvsimple] Tabellen in \LaTeX{} von Hand zu erstellen,
-    insbesondere mit vielen Werten und ggf.~Einheiten, kann eine Qual sein.
-    Es gibt mittlerweile einige Tools, \zB~Webseiten,
-    die Abhilfe schaffen können, aber besser ist,
-    wenn man einfach eine \file{*.csv} Datei
-    (kann aus Excel/Origin exportiert werden)
-    einliest und als Tabelle darstellt.
-
-  \item[xcolor, graphicx] Was wäre die (heutige) Welt ohne Farbe?
-    Ohne Bilder?
-    Möchte man dies in Form von \zB~Graphiken in seine Dokumente einbinden,
-    braucht man diese Pakete\dots
-    Hinweis: \textsw{xcolor} wird von vielen Paketen geladen
-    und muss nur manuell geladen werden,
-    falls sonst kein solches Paket (\zB~\textsw{graphicx}) verwendet wird.
-
-  \item[hyperref] Jeder kennt heutzutage Links.
-    Diese sind in Büchern meist nicht vorhanden,
-    aber im digital anzusehenden PDF-Dokument.
-    Um Links zu erzeugen,
-    um \zB~einfach eine section aus der TOC anzuspringen,
-    kann dieses Paket geladen werden.
-    Damit werden URLs, wie auch Referenzen, clickable.
-    Hinweis: Dieses Paket sollte als \emph{letztes} geladen werden.
-
-  \item[url] Um URLs in seinem Dokument zu setzen,
-    sollte das Paket \textsw{url} geladen werden.
-    Es sorgt dafür, dass sie in einem typewriter Stil gesetzt
-    und besser getrennt werden,
-    falls sie über eine Zeile im Text hinausragen würden.
-
-  \item[listings] Es gibt immer wieder Skripte,
-    kleine oder größere, und Programme,
-    die man an seine Arbeit anhängen möchte.
-    Um Syntax-Highlighting und andere sinnvolle
-    Features zu nutzen, kann man dieses Paket laden.
-    Alternative: \textsw{minted}
-
-  \item[setspace] Auch beim Zeilenabstand gilt:
-    \LaTeX{} macht, was es tut, aus gutem Grund.
-    Das ist auch gar nicht so schlecht,
-    aber manchmal möchte man andere,
-    als die Standard-Zeilenabstände.
-    Dann empfiehlt es sich, dieses Paket zu laden,
-    welches einem komfortabel ermöglicht,
-    Zeilenabstände einzustellen.
-
-  \item[csquotes] Möchte man Anführungszeichen verwenden,
-    sollte man sich überlegen, wofür.
-    Häufig wird wörtlich zitiert. Unter anderem dann bietet es sich an,
-    dieses Paket zu laden, das den Befehl \verb+\enquote+ bereitstellt.
-    Dieser kann beliebig variiert werden,
-    je nach Sprache, Region und Vorliebe.
-
-  \item[esdiff] Ja, die Mathematik kommt heutzutage
-    wohl kaum ohne die von Leibniz eingeführte
-    Differential-Schreibweise aus.
-    Um sich das Leben so einfach wie möglich zu machen,
-    empfiehlt es sich, ein Paket zu laden,
-    statt selbst Befehle dafür zu schreiben.
-    Alternativen: \textsw{physics}, \textsw{cool}
-
-  \item[braket] Gibt einem Befehle an die Hand,
-    um \textlangle Bra-Ket\textrangle Notation einfach zu verwenden.
-    Alternativen: \textsw{physics}
-
-  \item[physics] Viele kleine nützliche Tools,
-    wie Differentiale, Bra-Ket,
-    automatische Klammerskalierung nach Mathe-Befehlen
-    (wie \verb+\sin+), \dots
-
-  \item[amsmath, mathtools, amssymb] Die Mathematik\dots
-    Das Paket \textsw{amsmath} sollte quasi immer geladen werden,
-    wenn man mit mathematischen Ausdrücken hantiert.
-    \textsw{mathtools} lädt \textsw{amsmath} selbstständig,
-    und bietet einige nützliche erweiterte Funktionen.
-    \textsw{amssymb} macht einige häufig verwendeten Symbole verfügbar.
-
-  \item[appendix] Macht einem das Leben mit Anhang leichter\dots
-    Bietet einige nützliche Zusatzfunktionen rund um Anhänge.
-
-  \item[lineno] Kann, wie der Name vermuten lässt, Zeilennummern ausgeben.
-    Sehr nützlich für Korrekturlesen oder Arbeitsversionen.
-
-  \item[todonotes] Praktisch, wenn man im Dokument Todo-Notes haben möchte.
-    Ermöglicht einem auch eine list of todos anzuzeigen, ähnlich zu TOC,
-    verschiedene Farben\dots
-    Alternativen: \textsw{easy-todo}, \textsw{fixme},
-      \textsw{fixmetodonotes}, \textsw{todo}
-
-  \item[blindtext] Erzeugt, was der Titel sagt.
-    Vorteil gegenüber den anderen Paketen:
-    Die Sprache, die mit Babel geladen wird,
-    wird für den Blindtext verwendet --
-    zumindest für den Fall der deutschen Sprache.
-    Außerdem gibt es die Möglichkeit,
-    Blindtexte mit Mathe zu erstellen.
-    Alternativen: \textsw{lipsum}, \textsw{kantlipsum}
-
-  \item[parskip] Verwendet man keine \textsw{KOMA} Klasse,
-    so kann man alternativ den Abstand
-    zwischen Paragraphen mithilfe dieses Pakets einstellen.
-
-  \item[fancyhdr] Steht für \enquote{fancy header}.
-    Sollte ausschließlich ohne \textsw{KOMA} verwendet werden.
-
-  \item[nag] Gibt zusätzliche Warnungen aus,
-    falls ein paar typische Fehler oder obsolete
-    Pakete gefunden werden, ist jedoch ein wenig outdated.
-
-  \item[xspace] Für variable Leerzeichen in user-defined Macros.
-
-  \item[tikz, pgfplots] Für Skizzen, (Vektor-)Graphiken,
-    und noch vieles mehr, \zB~auch dann, und überall dort,
-    wo die vorhandenen Zeichen von \LaTeX{} nicht ausreichen.
-
-  \item[biblatex (mit \textsw{biber} backend)]
-    Das aktuellste Literaturpaket,
-    welches bei neuen eigenen Arbeiten verwendet werden sollte --
-    quasi ein Muss.
-
-  \item[xparse] Ermöglicht das Ändern vorhandener Befehle
-    und gibt Alternative zu \verb+\newcommand+.
-
-  \item[caption] Einfaches Anpassen von captions (\zB~Font).
-
-  \item[subcaption] Möglichkeit, mehrere Captions/Floats
-    neben- und übereinander zu nutzen.
-
-  \item[enumerate/enumitem] Einfaches Ändern vieler Einstellungen
-    um Listen/itemizes. Kann zu Kompatibilitätsproblemen führen!
-
-  \item[titling] Zugriff auf Titel und Autor, leichtes Anpassen.
-
-  \item[floatflt] Text um Floats fließen lassen.
-
-  \item[relsize] Ermöglicht relatives Schriftgröße ändern
-    (nützlich für \zB~kleinere Inidizes).
-
-  \item[standalone] Um \zB~standalone tikz Bilder einzubinden.
-
-  \item[bookmark] Erweitert und verbessert Funktionalität von \textsw{hyperref}.
-
-\end{description}
-%
-\section{\enquote{Dos and Don'ts} und Tipps}
-Um von Beginn den korrekten Umgang mit \LaTeX{} zu üben,
-folgt eine Liste mit \enquote{Dos and Don'ts},
-sowie hilfreichen Tipps zur Verwendung von \LaTeX{} und Problembehebung.
-\subsection{Dos and Don'ts}
-%
-\begin{itemize}
-  \item Don't: Verwende keine manuell eingefügten Anführungszeichen {\verb+"+} im Fließtext.
-  \item Do: Lade das Paket \verb+csquotes+ und verwende den Befehl \verb+\enquote+.
-\end{itemize}
-
-\begin{itemize}
-  \item Don't: Verwende nicht \verb+\\+ im Text,
-    um in einer neuen Zeile weiterzuschreiben.
-    Eine Ausnahme bilden der Mathematikmodus und Tabellen.
-  \item Do: Füge eine Leerzeile ein oder verwende den Befehl \verb+\par+.
-\end{itemize}
-
-\begin{itemize}
-  \item Don't: Verwende bei Abkürzungen nicht das falsche Leerzeichen wie bei z. B.
-  \item Do: Nutze den Befehl \verb+\,+ zwischen den Zeichen.
-\end{itemize}
-
-\begin{itemize}
-  \item Don't: Verwende keine falschen Leerzeichen vor Verweisen wie \enquote*{siehe XY}.
-  \item Do: Verwende non-breaking space \enquote*{siehe\textasciitilde XY}.
-\end{itemize}
-
-\begin{itemize}
-  \item Don't: Ignoriere keine Warnungen und erst recht nicht Fehlermeldungen.
-    Ebenfalls sollten badboxes nicht ignoriert werden.
-  \item Do: Man lese sich die Warnung durch und versuche sie zu beheben.
-    Sie werden nicht grundlos ausgegeben.
-\end{itemize}
-
-\begin{itemize}
-  \item Don't: Mische die Klassen von \textsw{KOMA} nicht mit \textsw{fancyhdr}.
-  \item Do: Verwende \textsw{scrlayer-scrpage} mit \textsw{KOMA}-Klassen.
-\end{itemize}
-
-\begin{itemize}
-  \item Don't: Versuche nicht die Probleme lokal zu lösen.
-  \item Do: Verwende überall die selben allgemeinen Befehle,
-    um ein einheitliches Erscheinungsbild zu garantieren
-    und gegebenenfalls leicht Änderungen einzufügen.
-
-    Nutze \LaTeX{} als das, wofür es gedacht ist.
-    Es trennt Inhalt von Layout.
-    Nutze also keine Layout-Befehle im Text,
-    sondern verwende sinnvolle preamble.
-
-    Benenne Befehle nach Anwendung und Sinn,
-    nicht beschreibend, was sie tun (Beispiel: \verb+\section+ statt \verb+\large\bfseries+).
-\end{itemize}
-
-\begin{itemize}
-  \item Don't: Verwende keine Serifenschrift für Beamer-Präsentationen,
-    die am Bildschirm gesehen werden.
-  \item Do: Hier empfiehlt sich, wie es Voreinstellung ist,
-    eine serifenlose Schrift zu verwenden.
-\end{itemize}
-
-\begin{itemize}
-  \item Don't: Verwende nicht \verb+\sloppy+,
-    weil es viele Warnungen und badboxes behebt. Das ist sloppy :)
-  \item Do: Verwende \verb+\emergencystretch+, \textsw{microtype}, \textsw{url},
-    manuelle Worttrennungen, \dots
-\end{itemize}
-
-\begin{itemize}
-  \item Don't: Verwende nicht die kursiven Differentiale \verb+\frac{d}{dx}+.
-  \item Do: Verwende aufrechte Differentiale mit \verb+\mathrm{d}+,
-    oder besser nutze \zB~das Paket \textsw{esdiff}.
-\end{itemize}   
-
-\begin{itemize}
-  \item Don't: Verwende nicht (zu viele) vertikale Linien in Tabellen. 
-  \item Do: Besser ist es wenige horizontale Linien, gut gewählte Abstände,
-    ggf. Hintergrundkolorierung zu verwenden (siehe \textsw{booktabs}).
-\end{itemize}  
-
-\subsection{Weitere hilfreiche Tipps.}   
-Es ist sehr empfehlenswert, sich die Dokumentationen von Paketen,
-insbesondere von \textsw{KOMA} durchzulesen.
-Es gibt viele gute \LaTeX{} Grundlagenbücher (\zB~wikibooks),
-die man zu Rate ziehen kann.
-Im Internet gibt es Seiten wie \url{http://tex.stackexchange.com}
-oder \url{http://texwelt.de}, auf denen einem kompetente User
-und sogar \LaTeX{} Core-Entwickler helfend zur Seite stehen.
-
-Für nahezu jeden Wunsch gibt es bereits Pakete.
-Man muss sie nur finden oder ihren Namen ausfindig machen.
-Dafür ist z.B.~\url{http://ctan.org} hilfreich.
-Dort findet man zahlreiche Manuals und Dokumentationen.
-Mit \textsw{tlmgr} lassen sich Pakete installieren.
-
-Mit der App und Internetseite \textsw{detexify}
-kann man ein Symbol malen und den zugehörigen \LaTeX-Befehl finden.
-
-Mit \textsw{tikz} lassen sich sogar Graphen
-ohne Zusatzsoftware im \LaTeX-Dokument zeichnen.
-
-Der Befehl \verb+\space+ kann ein Leerzeichen erzwingen,
-genauso wie mit \verb+\␣+, wobei \verb+␣+ ein Leerzeichen ist.
-Es gibt auch Leerzeichen, die mehr oder weniger Platz einnehmen,
-\zB~\verb+\,+, welches man bei Abkürzungen nach einem Punkt verwenden sollte.
-
-Falls man mit all den Befehlen nur schwer zurecht kommt
-und Microsoft Word vermisst, so kann man \textsw{LyX} ausprobieren und nutzen.
-Das ist mehr ein Word-artiger WYSIWYM Editor.
-Möchte man nicht dauernd auf Pakete zurückgreifen,
-sondern eigene und einfachere Befehle erstellen,
-kann man einen Blick auf \textsw{ConTeXt} werfen.
-
-Möchte man beim Eintippen komplexer und langer Formeln
-die Formel live sehen, kann man \zB~\textsw{TeXstudio} benutzen.
-
-Zusätzlich ist es empfehlenswert,
-ein Version Control System wie \textsw{git} zu verwenden.
-Des Weiteren helfen Build/make/docker Scripts einem,
-Graphiken und Plots aus R oder python zu automatisiert zu erstellen,
-wenn sich etwas ändert.
-
+\subsubsection{f}
+
+Here I used the values my friend provided for me:\\
+
+Radio		Jet	
+20	302	42	6253
+20	6927	40	7273
+20	7638	42	6253
+20	9591	41	9867
+21	1012	42	4462
+21	119	42	4656
+21	4565	42	222
+21	8117	43	687
+22	3801	42	9268
+22	4156	42	9508
+22	611	42	714
+22	6821	41	9867
+22	9307	43	3171
+23	728	42	9978
+23	4281	43	9734
+23	7123	42	8381
+23	8544	42	7494
+24	142	45	7472
+24	2274	44	8426
+24	3694	45	1796
+24	405	44	2217
+24	4938	44	612
+24	5826	45	8537
+24	6359	44	7539
+24	6536	44	2217
+24	6892	45	1264
+24	7247	44	7539
+24	8135	45	909
+24	849	44	167
+24	8668	43	9557
+25	799	44	1153
+25	222	45	8537
+25	2753	46	1747
+25	3286	43	8315
+27	6732	45	1086
+
+\subsubsection{g}
+git checkout + number \\
+
+"git log" to see the history 
 \end{document}
